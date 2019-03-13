@@ -12,7 +12,6 @@ The pair to send back is [F( n ) + F( n - 1)], F( n ).
 #include <stdio.h>
 int fast_fib(int n, int last, int current)
 {
-
 	if (n == 1)
 		return current;
 	else
@@ -33,7 +32,6 @@ int *fibonacci(int n)
 	}
 	return (fib_pair);
 }
-
 
 int main(){
 	printf ("%i", *fibonacci(7));
