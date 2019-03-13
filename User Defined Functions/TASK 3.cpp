@@ -17,10 +17,7 @@ int max (int a, int b){
 }
 
 int main(){
-//	int a = 5, b = 10;
-	int a, b;
-	printf("Enter two number : ");
-	scanf("%i %i", &a, &b);
+	int a = 5, b = 10;
 	printf("Minimum number : %i \nMaximum number : %i", min(a,b), max(a,b));
 	return 0;
 }
