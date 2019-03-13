@@ -4,10 +4,7 @@
 
 void tower(int,char,char,char);
 int main(){
-//	int n = 3;
-	int n;
-	printf("Enter number of Disks : ");
-	scanf("%i", &n);
+	int n = 3;
 	tower(n,'S','A','D');
 	return 0;
 }
