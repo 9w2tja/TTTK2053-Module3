@@ -13,11 +13,6 @@ int power_raiser(int base, int power)
 }
 
 int main(){
-//	int base = 2, power = 5;
-	int base, power;
-	printf("Enter Base Number : ");
-	scanf("%i", &base);
-	printf("Enter Power Number : ");
-	scanf("%i", &power);
+	int base = 2, power = 5;
 	printf("%i", power_raiser(base, power));
 }
