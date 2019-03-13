@@ -10,10 +10,7 @@ void print_date(int mo, int day, int year)
 }
 
 int main(){
-//	print_date (25, 12, 17);
-	int mo, day, year;
-	printf("Enter Date (month day year) : ");
-	scanf("%i %i %i", &mo, &day, &year);
+	print_date (11, 25, 17);
 	print_date (mo, day, year);
 	return 0;
 }
