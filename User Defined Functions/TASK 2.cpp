@@ -15,17 +15,10 @@ char latter_grade (int score){
 		return 'B';
 	else if (score<=100)
 		return 'A';
-	else
-		return 0;
 }
 
 int main(){
-	
-//	int score = 40;
-	int score;
-	printf("Enter score : ");
-	scanf("%i", &score);
+	int score = 40;
 	printf("Your Score: %i Grade: %c", score, latter_grade(score));
-
 	return 0;
 }
