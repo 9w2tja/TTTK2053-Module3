@@ -29,12 +29,7 @@ multiply(8, 2) returning 16
 multiply(8, 3) returning 24
 */
 int main(){
-//	int m = 8, n = 3;
-	int m, n;
-	printf("Enter m Value : ");
-	scanf("%i", &m);
-	printf("Enter n Value : ");
-	scanf("%i", &n);
+	int m = 8, n = 3;
 	multiply(m,n);
 	return 0;
 }
